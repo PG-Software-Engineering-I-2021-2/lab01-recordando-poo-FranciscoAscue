@@ -1,4 +1,4 @@
-package main.java;
+package primerprojecto;
 
 public class Main {
     public static void main(String[] args) {

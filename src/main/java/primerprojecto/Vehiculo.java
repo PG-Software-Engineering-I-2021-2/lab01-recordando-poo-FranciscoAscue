@@ -1,4 +1,4 @@
-package main.java;
+package primerprojecto;
 
 public class Vehiculo {
     protected double capacidadCombustible;
