@@ -1,4 +1,4 @@
-package primerprojecto;
+package primerproyecto;
 
 public class Vehiculo {
     protected double capacidadCombustible;

@@ -1,4 +1,4 @@
-package primerprojecto;
+package primerproyecto;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,3 +13,5 @@ public class Main {
         camion.viajar(12);
     }
 }
+
+
