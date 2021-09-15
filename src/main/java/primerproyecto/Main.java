@@ -1,16 +1,21 @@
 package primerproyecto;
 
 public class Main {
-    public static void main(String[] args) {
-        Automovil auto = new Automovil(100, 10, 0.9);
-        auto.abastecer(90);
-        auto.abastecer(100);
-        auto.viajar(4);
+    public static String testAuto() {
+        Automovil auto = new Automovil(100, 80, 5);
+        auto.abastecer(20);
+        return auto.viajar(4);
+    }
 
-        Camion camion = new Camion(100, 10, 0.9);
-        camion.abastecer(90);
-        camion.abastecer(100);
-        camion.viajar(12);
+    public static String testCamion() {
+        Camion camion = new Camion(100, 80, 10);
+        camion.abastecer(20);
+        return camion.viajar(12);
+    }
+
+    public static void main(String[] args) {
+        Main.testAuto();
+        Main.testCamion();
     }
 }
 
