@@ -17,6 +17,9 @@ public class Main {
         Main.testAuto();
         Main.testCamion();
     }
+
+
+
 }
 
 
